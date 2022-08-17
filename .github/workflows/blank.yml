@@ -36,3 +36,5 @@ jobs:
           echo test, and deploy your project.
           mkdir fff-test-dir
           touch hollo.md
+          ls -a
+          echo Creado y listado
