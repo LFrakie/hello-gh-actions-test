@@ -37,11 +37,14 @@ jobs:
           mkdir fff-test-dir
           touch hollo.md
           ls -a
+          
+          ver pwd:
+          pwd
           echo Creado y listado
       
       - name: Deployando :D
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: exampleSite/public
+          publish_dir: /
           publish_branch: gh-pages
