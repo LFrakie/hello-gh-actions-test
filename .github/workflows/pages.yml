@@ -42,6 +42,7 @@ jobs:
           pwd
           echo Creado y listado
           git --version
+          wget --version
       
       - name: Deployando :D
         uses: peaceiris/actions-gh-pages@v3
