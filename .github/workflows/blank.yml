@@ -38,7 +38,7 @@ jobs:
           touch hollo.md
           ls -a
           
-          ver pwd:
+          echo ver pwd:
           pwd
           echo Creado y listado
       
