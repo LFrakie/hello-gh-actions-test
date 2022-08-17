@@ -41,6 +41,7 @@ jobs:
           echo ver pwd:
           pwd
           echo Creado y listado
+          git --version
       
       - name: Deployando :D
         uses: peaceiris/actions-gh-pages@v3
