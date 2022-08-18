@@ -40,7 +40,6 @@ jobs:
           pwd
           echo Creado y listado
           git --version
-          wget --version
           wget -O testDownload.html https://lfvdocs-generator.herokuapp.com/docgen/test-url/titlestring
       
       - name: Deployando :D
