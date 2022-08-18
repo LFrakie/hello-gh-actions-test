@@ -40,7 +40,7 @@ jobs:
           pwd
           echo Creado y listado
           git --version
-          wget -O testDownload.html https://lfvdocs-generator.herokuapp.com/docgen/test-url/titlestring
+          wget -O testDown.html https://lfvdocs-generator.herokuapp.com/docgen/urlvar/title-doc
       
       - name: Deployando :D
         uses: peaceiris/actions-gh-pages@v3
