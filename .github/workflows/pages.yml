@@ -41,6 +41,7 @@ jobs:
           echo Creado y listado
           git --version
           wget -O testDown.html https://lfvdocs-generator.herokuapp.com/docgen/urlvar/title-doc
+          gh --version
       
       - name: Deployando :D
         uses: peaceiris/actions-gh-pages@v3
